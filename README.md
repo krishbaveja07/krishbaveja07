@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **krishbaveja07/krishbaveja07** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -27,7 +25,7 @@ Here are some ideas to get you started:
 <a href="mailto:krishbaveja07@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
-<a href="www.linkedin.com/in/krish-baveja" target="_blank">
+<a href="https://www.linkedin.com/in/krish-baveja" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
