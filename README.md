@@ -87,13 +87,11 @@ const krish = {
 
 ---
 
-## Contribution Race
-
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/f1-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/f1-snake-light.svg" />
-  <img alt="F1 Contribution Snake" src="assets/f1-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/f1-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/f1-light.svg" />
+  <img alt="F1 Lights Out" src="assets/f1-dark.svg" width="100%" />
 </picture>
 </div>
 
@@ -103,8 +101,13 @@ const krish = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=krishbaveja07&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&ring_color=58a6ff" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=krishbaveja07&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="170" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishbaveja07&theme=github_dark" width="90%" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishbaveja07&theme=github_dark" height="170" />&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishbaveja07&theme=github_dark" height="170" />
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishbaveja07&theme=github_dark" height="170" />&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=krishbaveja07&theme=github_dark&utcOffset=5.5" height="170" />
 
 <br><br>
 
@@ -123,7 +126,7 @@ const krish = {
 <div align="center">
 
 <a href="https://github.com/krishbaveja07/Certify">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=krishbaveja07&repo=Certify&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" />
+  <img src="https://img.shields.io/badge/Certify-Certificate_Generator-58a6ff?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
 </div>

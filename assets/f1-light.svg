@@ -1,0 +1,437 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="100%" stop-color="#f6f8fa"/>
+  </linearGradient>
+  <linearGradient id="carBody" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#a00000"/>
+    <stop offset="40%" stop-color="#DC0000"/>
+    <stop offset="100%" stop-color="#FF2800"/>
+  </linearGradient>
+  <linearGradient id="carTop" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#DC0000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#FF6040" stop-opacity="0.7"/>
+  </linearGradient>
+  <linearGradient id="trackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#e1e5ea"/>
+    <stop offset="100%" stop-color="#f6f8fa"/>
+  </linearGradient>
+  <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ff0000" stop-opacity="0.9"/>
+    <stop offset="60%" stop-color="#ff0000" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#ff0000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="exhaust" cx="0%" cy="50%" r="100%">
+    <stop offset="0%" stop-color="#FFA500" stop-opacity="0.95"/>
+    <stop offset="30%" stop-color="#FF4500" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#DC0000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="bigGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="8"/>
+  </filter>
+  <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="sparkGlow" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="1.5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="clip"><rect width="900" height="200" rx="8"/></clipPath>
+</defs>
+<rect width="900" height="200" rx="8" fill="url(#bg)"/>
+<g opacity="0.03" clip-path="url(#clip)">
+  <line x1="0" y1="0" x2="0" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="60" y1="0" x2="60" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="120" y1="0" x2="120" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="180" y1="0" x2="180" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="240" y1="0" x2="240" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="300" y1="0" x2="300" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="360" y1="0" x2="360" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="420" y1="0" x2="420" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="480" y1="0" x2="480" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="540" y1="0" x2="540" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="660" y1="0" x2="660" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="720" y1="0" x2="720" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="780" y1="0" x2="780" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="840" y1="0" x2="840" y2="200" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="0" y1="0" x2="900" y2="0" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="0" y1="60" x2="900" y2="60" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="0" y1="120" x2="900" y2="120" stroke="#0969da" stroke-width="0.5"/>
+  <line x1="0" y1="180" x2="900" y2="180" stroke="#0969da" stroke-width="0.5"/>
+</g>
+<rect x="0" y="142" width="900" height="58" fill="url(#trackGrad)" clip-path="url(#clip)"/>
+<g clip-path="url(#clip)">
+  <rect x="0" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="30" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="60" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="90" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="120" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="150" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="180" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="210" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="240" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="270" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="300" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="330" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="360" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="390" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="420" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="450" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="480" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="510" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="540" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="570" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="600" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="630" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="660" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="690" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="720" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="750" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="780" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="810" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="840" y="140" width="30" height="4" fill="#dc0000"/>
+  <rect x="870" y="140" width="30" height="4" fill="#fff" opacity="0.9"/>
+  <rect x="900" y="140" width="30" height="4" fill="#dc0000"/>
+</g>
+<g opacity="0.25">
+  <rect x="15" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="80" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="145" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="210" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="275" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="340" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="405" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="470" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="535" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="600" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="665" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="730" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="795" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+  <rect x="860" y="170" width="40" height="2" rx="1" fill="#d0d7de"/>
+</g>
+<rect x="290" y="142" width="3" height="58" fill="#d0d7de" opacity="0.4"/>
+<rect x="370" y="142" width="3" height="58" fill="#d0d7de" opacity="0.4"/>
+<rect x="450" y="142" width="3" height="58" fill="#d0d7de" opacity="0.4"/>
+<rect x="395" y="142" width="4" height="58" fill="#fff" opacity="0.15"/>
+<rect x="260" y="28" width="380" height="10" rx="3" fill="#d0d7de"/>
+<rect x="260" y="28" width="380" height="4" rx="2" fill="#afb8c1"/>
+<rect x="280" y="28" width="6" height="30" rx="1" fill="#d0d7de"/>
+<rect x="280" y="58" width="6" height="3" rx="1" fill="#afb8c1"/>
+<rect x="620" y="28" width="6" height="30" rx="1" fill="#d0d7de"/>
+<rect x="620" y="58" width="6" height="3" rx="1" fill="#afb8c1"/>
+<rect x="318" y="38" width="40" height="50" rx="4" fill="#d0d7de"/>
+<rect x="320" y="40" width="36" height="46" rx="3" fill="#c0c5cc"/>
+<circle cx="338" cy="72" r="16" fill="#afb8c1"/>
+<circle cx="338" cy="72" r="25" fill="url(#redGlow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.0800;0.0850;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="338" cy="72" r="14" fill="#c8cdd5">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff0000;#ff0000;#c8cdd5;#c8cdd5" keyTimes="0;0.0800;0.0850;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="338" cy="72" r="6" fill="#c8cdd5" opacity="0.8">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff4444;#ff4444;#c8cdd5;#c8cdd5" keyTimes="0;0.0800;0.0850;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<rect x="374" y="38" width="40" height="50" rx="4" fill="#d0d7de"/>
+<rect x="376" y="40" width="36" height="46" rx="3" fill="#c0c5cc"/>
+<circle cx="394" cy="72" r="16" fill="#afb8c1"/>
+<circle cx="394" cy="72" r="25" fill="url(#redGlow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.1400;0.1450;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="394" cy="72" r="14" fill="#c8cdd5">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff0000;#ff0000;#c8cdd5;#c8cdd5" keyTimes="0;0.1400;0.1450;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="394" cy="72" r="6" fill="#c8cdd5" opacity="0.8">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff4444;#ff4444;#c8cdd5;#c8cdd5" keyTimes="0;0.1400;0.1450;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<rect x="430" y="38" width="40" height="50" rx="4" fill="#d0d7de"/>
+<rect x="432" y="40" width="36" height="46" rx="3" fill="#c0c5cc"/>
+<circle cx="450" cy="72" r="16" fill="#afb8c1"/>
+<circle cx="450" cy="72" r="25" fill="url(#redGlow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.2000;0.2050;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="72" r="14" fill="#c8cdd5">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff0000;#ff0000;#c8cdd5;#c8cdd5" keyTimes="0;0.2000;0.2050;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="450" cy="72" r="6" fill="#c8cdd5" opacity="0.8">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff4444;#ff4444;#c8cdd5;#c8cdd5" keyTimes="0;0.2000;0.2050;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<rect x="486" y="38" width="40" height="50" rx="4" fill="#d0d7de"/>
+<rect x="488" y="40" width="36" height="46" rx="3" fill="#c0c5cc"/>
+<circle cx="506" cy="72" r="16" fill="#afb8c1"/>
+<circle cx="506" cy="72" r="25" fill="url(#redGlow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.2600;0.2650;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="506" cy="72" r="14" fill="#c8cdd5">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff0000;#ff0000;#c8cdd5;#c8cdd5" keyTimes="0;0.2600;0.2650;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="506" cy="72" r="6" fill="#c8cdd5" opacity="0.8">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff4444;#ff4444;#c8cdd5;#c8cdd5" keyTimes="0;0.2600;0.2650;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<rect x="542" y="38" width="40" height="50" rx="4" fill="#d0d7de"/>
+<rect x="544" y="40" width="36" height="46" rx="3" fill="#c0c5cc"/>
+<circle cx="562" cy="72" r="16" fill="#afb8c1"/>
+<circle cx="562" cy="72" r="25" fill="url(#redGlow)" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.3200;0.3250;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="562" cy="72" r="14" fill="#c8cdd5">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff0000;#ff0000;#c8cdd5;#c8cdd5" keyTimes="0;0.3200;0.3250;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<circle cx="562" cy="72" r="6" fill="#c8cdd5" opacity="0.8">
+  <animate attributeName="fill" values="#c8cdd5;#c8cdd5;#ff4444;#ff4444;#c8cdd5;#c8cdd5" keyTimes="0;0.3200;0.3250;0.4150;0.4200;1" dur="10s" repeatCount="indefinite"/>
+</circle>
+<g transform="translate(0,160)">
+  <animateTransform attributeName="transform" type="translate" values="380,0;380,0;380,0;378,0;395,0;440,0;530,0;680,0;950,0;950,0;380,0;380,0" keyTimes="0;0.4000;0.4200;0.4300;0.4600;0.5000;0.5500;0.6000;0.6700;0.8800;0.8810;1" dur="10s" repeatCount="indefinite" additive="sum"/>
+
+  <!-- Exhaust fire (gets massive at launch) -->
+  <g filter="url(#bigGlow)">
+    <ellipse cx="-55" cy="4" rx="10" ry="4" fill="url(#exhaust)">
+      <animate attributeName="rx" values="10;14;8;12;10" dur="0.12s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.6;0.6;0.6;0.6;0.6;1;1;1;0.6;0.6"
+        keyTimes="0;0.4000;0.4200;0.4300;0.4500;0.4800;0.5200;0.6200;0.8800;0.8810;1"
+        dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Boost flame (only during launch) -->
+    <ellipse cx="-70" cy="4" rx="0" ry="6" fill="url(#exhaust)" opacity="0">
+      <animate attributeName="rx" values="0;0;0;25;40;50;40;0;0"
+        keyTimes="0;0.4200;0.4300;0.4700;0.5200;0.5700;0.6400;0.8800;1"
+        dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0.9;0.9;0.8;0.5;0;0"
+        keyTimes="0;0.4200;0.4300;0.4500;0.5200;0.6000;0.6400;0.8800;1"
+        dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Inner hot flame -->
+    <ellipse cx="-60" cy="4" rx="0" ry="3" fill="#FFCC00" opacity="0">
+      <animate attributeName="rx" values="0;0;0;12;20;25;15;0;0"
+        keyTimes="0;0.4200;0.4300;0.4600;0.5000;0.5600;0.6200;0.8800;1"
+        dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;0;0.7;0.7;0.5;0.2;0;0"
+        keyTimes="0;0.4200;0.4300;0.4500;0.5200;0.5700;0.6200;0.8800;1"
+        dur="10s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Speed lines (appear during launch) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.5;0.5;0.3;0;0"
+      keyTimes="0;0.4200;0.4400;0.4800;0.5700;0.6400;0.8800;1"
+      dur="10s" repeatCount="indefinite"/>
+    <line x1="-120" y1="-5" x2="-50" y2="-5" stroke="#FF4500" stroke-width="2" opacity="0.6"/>
+    <line x1="-140" y1="2" x2="-55" y2="2" stroke="#FF4500" stroke-width="1.5" opacity="0.5"/>
+    <line x1="-110" y1="8" x2="-48" y2="8" stroke="#FF4500" stroke-width="1.8" opacity="0.55"/>
+    <line x1="-130" y1="-10" x2="-55" y2="-10" stroke="#FF6600" stroke-width="1" opacity="0.35"/>
+    <line x1="-100" y1="14" x2="-45" y2="14" stroke="#FF6600" stroke-width="1.2" opacity="0.4"/>
+  </g>
+
+  <!-- Floor sparks (during launch) -->
+  <g filter="url(#sparkGlow)" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;1;1;0.5;0;0"
+      keyTimes="0;0.4200;0.4500;0.4800;0.5700;0.6400;0.8800;1"
+      dur="10s" repeatCount="indefinite"/>
+    <circle r="1.5" fill="#FFD700">
+      <animate attributeName="cx" values="-20;-45;-70" dur="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="18;12;4" dur="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.5;0" dur="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.2" fill="#FFAA00">
+      <animate attributeName="cx" values="-15;-35;-60" dur="0.35s" repeatCount="indefinite" begin="0.1s"/>
+      <animate attributeName="cy" values="18;10;0" dur="0.35s" repeatCount="indefinite" begin="0.1s"/>
+      <animate attributeName="opacity" values="1;0.4;0" dur="0.35s" repeatCount="indefinite" begin="0.1s"/>
+    </circle>
+    <circle r="1" fill="#fff">
+      <animate attributeName="cx" values="-10;-30;-55" dur="0.25s" repeatCount="indefinite" begin="0.05s"/>
+      <animate attributeName="cy" values="18;14;8" dur="0.25s" repeatCount="indefinite" begin="0.05s"/>
+      <animate attributeName="opacity" values="1;0.3;0" dur="0.25s" repeatCount="indefinite" begin="0.05s"/>
+    </circle>
+    <circle r="1.3" fill="#FFD700">
+      <animate attributeName="cx" values="-25;-50;-80" dur="0.4s" repeatCount="indefinite" begin="0.15s"/>
+      <animate attributeName="cy" values="18;8;-4" dur="0.4s" repeatCount="indefinite" begin="0.15s"/>
+      <animate attributeName="opacity" values="1;0.6;0" dur="0.4s" repeatCount="indefinite" begin="0.15s"/>
+    </circle>
+  </g>
+
+  <!-- ════ THE F1 CAR ════ -->
+  <g filter="url(#glow)">
+
+    <!-- Rear wing -->
+    <path d="M -47,-18 L -44,-18 L -43,18 L -48,18 Z" fill="#444"/>
+    <path d="M -35,-18 L -32,-18 L -32,18 L -35,18 Z" fill="#444"/>
+    <rect x="-49" y="-20" width="20" height="4" rx="1" fill="#8B0000"/>
+    <rect x="-49" y="-16" width="20" height="3" rx="0.5" fill="#DC0000"/>
+    <!-- Wing pylons -->
+    <rect x="-43" y="-14" width="3" height="20" rx="0.5" fill="#6B0000"/>
+    <rect x="-36" y="-14" width="2.5" height="18" rx="0.5" fill="#6B0000"/>
+
+    <!-- Rear diffuser -->
+    <path d="M -45,10 L -38,6 L -38,18 L -45,18 Z" fill="#ddd" opacity="0.7"/>
+
+    <!-- Rain light -->
+    <rect x="-46" y="0" width="5" height="2.5" rx="1" fill="#ff0000" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.3;0.7" dur="0.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Engine cover -->
+    <path d="M -38,-2 L -35,-6 L -28,-10 L -15,-13 L 0,-14 L 0,18 L -38,18 Z" fill="url(#carBody)"/>
+
+    <!-- Sidepod + monocoque -->
+    <path d="M 0,-14 L 10,-15 L 20,-14.5 L 20,18 L 0,18 Z" fill="#FF1801"/>
+
+    <!-- Undercut shadow -->
+    <path d="M -28,8 L -15,2 L 0,0 L 15,0 L 20,1 L 20,18 L -28,18 Z" fill="#8B0000" opacity="0.4"/>
+
+    <!-- Top highlight -->
+    <path d="M -15,-13 L 0,-14 L 15,-14 L 20,-13 L 15,-12 L 0,-12 L -15,-11 Z" fill="url(#carTop)" opacity="0.6"/>
+
+    <!-- Airbox -->
+    <path d="M 5,-15 L 8,-22 L 14,-24 L 20,-22 L 22,-17 L 22,-14 Z" fill="#DC0000"/>
+    <rect x="12" y="-25" width="5" height="4" rx="1.5" fill="#444"/>
+
+    <!-- Cockpit -->
+    <path d="M 18,-14 L 22,-13 L 28,-11 L 30,-8 L 28,-6 L 20,-6 L 16,-8 Z" fill="#f6f8fa"/>
+
+    <!-- Halo -->
+    <path d="M 14,-9 Q 18,-16 24,-14 Q 30,-12 32,-6" fill="none" stroke="#57606a" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 15,-8 Q 19,-14 24,-13 Q 29,-11 31,-6" fill="none" stroke="#999" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Monocoque front -->
+    <path d="M 20,-14.5 L 28,-12 L 36,-8 L 42,-3 L 45,0 L 45,18 L 20,18 Z" fill="url(#carBody)"/>
+
+    <!-- Nose -->
+    <path d="M 45,0 L 50,-2 L 54,0 L 54,5 L 50,8 L 47,8 L 45,6 Z" fill="#FF1801"/>
+    <path d="M 50,-1 L 53,0 L 52,3 L 49,1 Z" fill="#FF4500" opacity="0.4"/>
+
+    <!-- Pitot tube -->
+    <line x1="55" y1="2" x2="62" y2="2" stroke="#999" stroke-width="0.8" opacity="0.6"/>
+
+    <!-- Front wing -->
+    <path d="M 52,-2 L 55,-2 L 55,20 L 52,20 Z" fill="#555"/>
+    <rect x="42" y="15" width="14" height="2.5" rx="0.5" fill="#555"/>
+    <rect x="44" y="12" width="12" height="2" rx="0.5" fill="#DC0000"/>
+    <rect x="46" y="9" width="10" height="1.8" rx="0.5" fill="#8B0000"/>
+
+    <!-- Mirrors -->
+    <rect x="32" y="-10" width="4" height="3" rx="0.8" fill="#444"/>
+    <rect x="28" y="-8" width="4" height="3" rx="0.8" fill="#444"/>
+
+    <!-- Number -->
+    <text x="-5" y="10" text-anchor="middle" font-family="'Arial Black',Impact,sans-serif" font-size="14" font-weight="900" fill="#fff" opacity="0.75">07</text>
+    <rect x="-22" y="-2" width="30" height="1.5" rx="0.5" fill="#fff" opacity="0.2"/>
+
+    <!-- Front wheel -->
+    <circle cx="42" cy="18" r="9" fill="#111"/>
+    <circle cx="42" cy="18" r="7.5" fill="#3a3a40"/>
+    <circle cx="42" cy="18" r="5" fill="#222"/>
+    <circle cx="42" cy="18" r="3.5" fill="#555"/>
+    <circle cx="42" cy="18" r="1.5" fill="#777"/>
+    <g>
+      <line x1="42" y1="10" x2="42" y2="26" stroke="#555" stroke-width="0.5"/>
+      <line x1="34" y1="18" x2="50" y2="18" stroke="#555" stroke-width="0.5"/>
+      <line x1="36" y1="12" x2="48" y2="24" stroke="#555" stroke-width="0.4"/>
+      <line x1="36" y1="24" x2="48" y2="12" stroke="#555" stroke-width="0.4"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 42 18" to="360 42 18" dur="0.1s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Rear wheel -->
+    <circle cx="-32" cy="18" r="11" fill="#111"/>
+    <circle cx="-32" cy="18" r="9.5" fill="#3a3a40"/>
+    <circle cx="-32" cy="18" r="6.5" fill="#222"/>
+    <circle cx="-32" cy="18" r="5" fill="#555"/>
+    <circle cx="-32" cy="18" r="2" fill="#777"/>
+    <g>
+      <line x1="-32" y1="7" x2="-32" y2="29" stroke="#555" stroke-width="0.5"/>
+      <line x1="-43" y1="18" x2="-21" y2="18" stroke="#555" stroke-width="0.5"/>
+      <line x1="-39" y1="11" x2="-25" y2="25" stroke="#555" stroke-width="0.4"/>
+      <line x1="-39" y1="25" x2="-25" y2="11" stroke="#555" stroke-width="0.4"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 -32 18" to="360 -32 18" dur="0.1s" repeatCount="indefinite"/>
+    </g>
+
+  </g>
+
+  <!-- Tire smoke (appears at launch) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.2;0.15;0.05;0;0"
+      keyTimes="0;0.4200;0.4300;0.4600;0.5400;0.6200;0.8800;1"
+      dur="10s" repeatCount="indefinite"/>
+    <circle cx="-40" cy="20" r="12" fill="#8b949e">
+      <animate attributeName="cx" values="-40;-60;-80" dur="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="12;20;30" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-35" cy="18" r="8" fill="#8b949e">
+      <animate attributeName="cx" values="-35;-50;-70" dur="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="8;15;22" dur="0.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</g>
+<rect x="0" y="0" width="900" height="200" rx="8" fill="#ffeb3b" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.15;0;0" keyTimes="0;0.4200;0.4300;0.4800;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<text x="450.0" y="120" text-anchor="middle" dominant-baseline="middle" font-family="'SF Pro Display','Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#0969da" letter-spacing="4" opacity="0" filter="url(#textGlow)">
+  <animate attributeName="opacity" values="0;0;0;0.9;0.9;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+LIGHTS OUT AND AWAY WE GO</text>
+<rect x="625.0" y="112" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="629.0" y="112" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="633.0" y="112" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="637.0" y="112" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="625.0" y="116" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="629.0" y="116" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="633.0" y="116" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="637.0" y="116" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="625.0" y="120" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="629.0" y="120" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="633.0" y="120" width="4" height="4" fill="#fff" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="637.0" y="120" width="4" height="4" fill="#666" opacity="0">
+  <animate attributeName="opacity" values="0;0;0;0.7;0.7;0;0" keyTimes="0;0.5800;0.6000;0.6500;0.8000;0.8200;1" dur="10s" repeatCount="indefinite"/>
+</rect>
+<line x1="439" y1="15" x2="550" y2="15" stroke="#FF4500" stroke-width="1.1" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.19;0.08;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="186" y1="37" x2="277" y2="37" stroke="#58a6ff" stroke-width="1.9" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.2;0.08;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="593" y1="59" x2="702" y2="59" stroke="#FFD700" stroke-width="1.8" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.26;0.10;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="688" y1="81" x2="868" y2="81" stroke="#DC0000" stroke-width="1.5" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.23;0.09;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="652" y1="103" x2="790" y2="103" stroke="#FF4500" stroke-width="1.1" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.33;0.13;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="447" y1="125" x2="554" y2="125" stroke="#58a6ff" stroke-width="2.0" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.19;0.08;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="233" y1="147" x2="352" y2="147" stroke="#FFD700" stroke-width="2.0" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.22;0.09;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+<line x1="591" y1="169" x2="742" y2="169" stroke="#DC0000" stroke-width="1.7" stroke-linecap="round" opacity="0">
+  <animate attributeName="opacity" values="0;0;0.17;0.07;0;0" keyTimes="0;0.4700;0.5200;0.6200;0.8800;1" dur="10s" repeatCount="indefinite"/>
+</line>
+</svg>
