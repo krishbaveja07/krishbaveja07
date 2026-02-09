@@ -1,0 +1,38 @@
+name: Update README Projects
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+  push:
+    branches: [main]
+  workflow_dispatch:       # manual trigger
+  repository_dispatch:     # triggers when you create/delete repos via GitHub API
+    types: [update-readme]
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Update README projects section
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || {
+            git add README.md
+            git commit -m "docs: auto-update projects section"
+            git push
+          }
