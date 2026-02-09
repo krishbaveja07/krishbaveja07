@@ -87,16 +87,6 @@ const krish = {
 
 ---
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/f1-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/f1-light.svg" />
-  <img alt="F1 Lights Out" src="assets/f1-dark.svg" width="100%" />
-</picture>
-</div>
-
----
-
 ## GitHub Stats
 
 <div align="center">
