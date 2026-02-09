@@ -1,145 +1,271 @@
+<!-- ╔══════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║                     KRISH BAVEJA — GitHub Profile                   ║ -->
+<!-- ╚══════════════════════════════════════════════════════════════════════╝ -->
+
 <div align="center">
 
-<!-- HERO HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:161b22,60:1f6feb,100:e10600&height=220&section=header&text=KRISH%20BAVEJA&fontSize=76&fontColor=ffffff&fontAlignY=32&desc=Full%20Stack%20Developer%20%E2%80%A2%20Mobile%20Engineer%20%E2%80%A2%20System%20Architect&descSize=16&descColor=ffffffcc&descAlignY=54&animation=fadeIn" width="100%" />
-
-<!-- TYPING SVG -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1500&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=45&lines=Shipping+Production+Apps+%E2%80%A2+1%2C000%2B+Users;React+Native+%7C+React+%7C+Node.js+%7C+Firebase;Offline-First+%E2%80%A2+Real-Time+%E2%80%A2+Cross-Platform;Clean+Code+%E2%80%A2+Scalable+Systems)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,30:1a1b27,60:1f6feb,100:58a6ff&height=200&section=header&text=KRISH%20BAVEJA&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer&descSize=20&descColor=58a6ff&descAlignY=58&animation=fadeIn&stroke=58a6ff&strokeWidth=1" width="100%" />
 
 <br>
 
-<a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
-<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=krishbaveja07&style=for-the-badge&color=1f6feb&label=VIEWS" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=40&lines=Building+Mobile+%26+Web+Apps+That+Scale;React+Native+%E2%80%A2+TypeScript+%E2%80%A2+Node.js+%E2%80%A2+Kotlin;Clean+Architecture+%E2%80%A2+Offline-First+Design;From+Idea+to+Production+%E2%80%94+End+to+End)](https://git.io/typing-svg)
+
+<br>
+
+<a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=krishbaveja07&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" />
 
 </div>
 
-<!-- ════════════════════════════════════════════════════════ -->
+<br>
 
-## About Me
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                           ABOUT ME                             -->
+<!-- ─────────────────────────────────────────────────────────────── -->
+
+## `> whoami`
 
 ```typescript
-const krish = {
-    location:  "Delhi, India",
-    education: "BCA, Computer Science — Manipal University",
-    focus:     "Scalable cross-platform apps with offline-first architecture",
-    passions:  ["System Design", "Robotics", "AI", "Open Source"],
-    funFact:   "I build Arduino robots for fun — full-stack thinking, even in hardware."
+const krish: Engineer = {
+  location:   "Delhi, India",
+  education:  "BCA in Computer Science — Manipal University",
+  focus:      ["Mobile Development", "Full-Stack Web", "System Architecture"],
+  currently:  "Building cross-platform apps with offline-first architecture",
+  passions:   ["System Design", "Robotics", "AI/ML", "Open Source"],
+  hardwareHobby: "I build Arduino robots — because full-stack means the hardware too.",
 };
 ```
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**What I Ship**
-- Production apps serving **1,000+ users & vendors**
-- **Offline-first** systems that work without internet
-- **Real-time** collaborative platforms with live sync
-- **Cross-platform** solutions from a single codebase
-- **End-to-end** — system design to deployment
+### What I Do
+
+- Build **cross-platform mobile apps** with React Native & Kotlin
+- Design **offline-first architectures** with seamless sync
+- Develop **full-stack web applications** — frontend through backend
+- Ship **end-to-end** — from system design to deployment & monitoring
+- Write code that's **clean, tested, and built to scale**
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**What Sets Me Apart**
-- Code that's **readable, tested, and maintainable**
-- Obsessed with **performance** and **UX**
-- Own the **full product lifecycle** — not just a slice
-- Strong **system design** foundations
-- Ship fast, ship often, **ship quality**
+### What Drives Me
+
+- Obsessed with **developer experience** and **clean architecture**
+- Believe great software starts with **great system design**
+- Own the **entire product lifecycle** — not just one layer
+- Constantly learning — currently diving deeper into **distributed systems**
+- Open-source contributor and **community learner**
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## Tech Stack
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                          TECH STACK                            -->
+<!-- ─────────────────────────────────────────────────────────────── -->
+
+## `> tech --stack`
 
 <div align="center">
 
-**Languages & Frameworks**
+<table>
+<tr>
+<td align="center" width="33%">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+**Languages**
 
-**Data & Infrastructure**
+<br>
 
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Realm](https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+<img src="https://skillicons.dev/icons?i=ts,js,kotlin,py&theme=dark" />
 
-**Tools**
+</td>
+<td align="center" width="33%">
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+**Frontend & Mobile**
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=react,tailwind,html,css&theme=dark" />
+
+</td>
+<td align="center" width="33%">
+
+**Backend & Data**
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,firebase,mongodb&theme=dark" />
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+
+**DevOps & Tools**
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=git,github,vercel,docker&theme=dark" />
+
+</td>
+<td align="center" width="33%">
+
+**Design & Planning**
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=figma,androidstudio,vscode,idea&theme=dark" />
+
+</td>
+<td align="center" width="33%">
+
+**State & Storage**
+
+<br>
+
+<img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" height="28" />
+<img src="https://img.shields.io/badge/Realm-39477F?style=for-the-badge&logo=realm&logoColor=white" height="28" />
+
+</td>
+</tr>
+</table>
 
 </div>
 
----
+<br>
 
-## GitHub Stats
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                        FEATURED PROJECTS                       -->
+<!-- ─────────────────────────────────────────────────────────────── -->
+
+## `> ls ./projects`
+
+<table>
+<tr>
+<td width="50%">
+
+### <a href="https://github.com/krishbaveja07/Certify">Certify — Certificate Generator</a>
+`Kotlin` `Android` `Gradle`
+
+> An Android application for generating professional certificates. Built with modern Kotlin and clean architecture principles.
+
+**Highlights:**
+- Native Android development with Kotlin
+- Modern Gradle (Kotlin DSL) build configuration
+- Clean, maintainable project architecture
+
+</td>
+<td width="50%">
+
+### <a href="https://github.com/krishbaveja07/demoProject">Cross-Platform Mobile Starter</a>
+`React Native` `TypeScript` `Jest`
+
+> Production-ready React Native boilerplate with TypeScript, ESLint, Prettier, and Jest configured out of the box.
+
+**Highlights:**
+- TypeScript-first with strict type checking
+- Full testing setup with Jest
+- iOS & Android from a single codebase
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                         GITHUB STATS                           -->
+<!-- ─────────────────────────────────────────────────────────────── -->
+
+## `> git stats`
 
 <div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=krishbaveja07&theme=github_dark" width="90%" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishbaveja07&theme=github_dark" height="170" />&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=krishbaveja07&theme=github_dark" height="170" />
+&nbsp;
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=krishbaveja07&theme=github_dark" height="170" />
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishbaveja07&theme=github_dark" height="170" />&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=krishbaveja07&theme=github_dark" height="170" />
+&nbsp;
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=krishbaveja07&theme=github_dark&utcOffset=5.5" height="170" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=krishbaveja07&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" width="55%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=krishbaveja07&theme=github-dark-blue&hide_border=false&background=0d1117&stroke=30363d&border=30363d&ring=58a6ff&fire=ff6b35&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" width="52%" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishbaveja07&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ff6b35&area=true&area_color=1f6feb" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=krishbaveja07&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=ff6b35&area=true&area_color=1f6feb" width="92%" />
 
 </div>
 
----
+<br>
 
-## Featured Work
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                        CONTRIBUTION SNAKE                      -->
+<!-- ─────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-<a href="https://github.com/krishbaveja07/Certify">
-  <img src="https://img.shields.io/badge/Certify-Certificate_Generator-58a6ff?style=for-the-badge&logo=github&logoColor=white" />
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krishbaveja07/krishbaveja07/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krishbaveja07/krishbaveja07/output/github-snake.svg" />
+  <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/krishbaveja07/krishbaveja07/output/github-snake-dark.svg" width="100%" />
+</picture>
 
 </div>
 
----
+<br>
+
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                         CURRENTLY                              -->
+<!-- ─────────────────────────────────────────────────────────────── -->
+
+## `> cat ./status.md`
+
+```
+  Learning        Distributed Systems, Advanced Android (Jetpack Compose)
+  Building        Production mobile apps with offline-first sync
+  Exploring       AI/ML integration in mobile applications
+  Open to         Full-time roles, freelance projects, open-source collabs
+```
+
+<br>
+
+<!-- ─────────────────────────────────────────────────────────────── -->
+<!--                            CTA                                 -->
+<!-- ─────────────────────────────────────────────────────────────── -->
 
 <div align="center">
 
-### Let's Build Something Great
-
-**Have an idea? I'll make it real — from architecture to deployment.**
+---
 
 <br>
 
-<a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Hire_Me-E10600?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+### Let's build something great together.
+
+**I'm actively looking for opportunities where I can ship impactful software.**
 
 <br>
 
-*"The only way to go fast is to go well."* — Robert C. Martin
+<a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" /></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" /></a>
+
+<br><br>
+
+<sub>*"First, solve the problem. Then, write the code."* — John Johnson</sub>
+
+<br><br>
 
 </div>
 
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:e10600,30:1f6feb,70:161b22,100:0d1117&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,30:1f6feb,70:1a1b27,100:0d1117&height=100&section=footer" width="100%" />
