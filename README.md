@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=230&section=header&text=Krish%20Baveja&fontSize=75&fontColor=ffffff&fontAlignY=33&desc=Full%20Stack%20Developer%20%E2%80%A2%20React%20Native%20%E2%80%A2%20Node.js&descSize=18&descColor=58a6ff&descAlignY=55&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=230&section=header&text=Krish%20Baveja&fontSize=75&fontColor=ffffff&fontAlignY=33&desc=Full%20Stack%20Developer&descSize=18&descColor=58a6ff&descAlignY=55&animation=fadeIn" width="100%" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=600&height=50&lines=Building+Apps+That+People+Actually+Use;4%2B+Years+of+Shipping+Real+Products;Offline-First+%7C+Real-Time+%7C+Cross-Platform;Clean+Code+%E2%80%A2+Scalable+Systems+%E2%80%A2+Great+UX)](https://git.io/typing-svg)
 
