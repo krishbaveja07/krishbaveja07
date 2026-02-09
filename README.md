@@ -87,12 +87,13 @@ const krish = {
 
 ---
 
-<!-- ════════════════════════ F1 DIVIDER ════════════════════════ -->
+## Contribution Race
+
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/f1-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/f1-light.svg" />
-  <img alt="F1 Car Animation" src="assets/f1-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/f1-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/f1-snake-light.svg" />
+  <img alt="F1 Contribution Snake" src="assets/f1-snake-dark.svg" width="100%" />
 </picture>
 </div>
 
