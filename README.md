@@ -151,22 +151,12 @@ const krish: Engineer = {
 <tr>
 <td width="50%" valign="top">
 
-### <a href="https://github.com/krishbaveja07/Icebreaker">Icebreaker</a>
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Stars](https://img.shields.io/github/stars/krishbaveja07/Icebreaker?style=flat-square&color=58a6ff&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/krishbaveja07/Icebreaker?style=flat-square&color=8b949e&label=%F0%9F%94%80)
-
-> No description provided
-
-</td>
-<td width="50%" valign="top">
-
 ### <a href="https://github.com/krishbaveja07/Certify">Certify</a>
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Stars](https://img.shields.io/github/stars/krishbaveja07/Certify?style=flat-square&color=58a6ff&label=%E2%AD%90) ![Forks](https://img.shields.io/github/forks/krishbaveja07/Certify?style=flat-square&color=8b949e&label=%F0%9F%94%80)
 
 > No description provided
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### <a href="https://github.com/krishbaveja07/demoProject">demoProject</a>
@@ -175,7 +165,6 @@ const krish: Engineer = {
 > No description provided
 
 </td>
-<td width="50%"></td>
 </tr>
 </table>
 <!-- PROJECTS:END -->
