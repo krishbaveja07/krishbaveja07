@@ -13,7 +13,7 @@
 <br>
 
 <a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/krishbaveja" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <img src="https://komarev.com/ghpvc/?username=krishbaveja07&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS" />
 
 </div>
@@ -248,7 +248,7 @@ const krish: Engineer = {
 
 <a href="mailto:krishbaveja07@gmail.com"><img src="https://img.shields.io/badge/Get_In_Touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" /></a>
 &nbsp;
-<a href="https://www.linkedin.com/in/krish-baveja" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" /></a>
+<a href="https://www.linkedin.com/in/krishbaveja" target="_blank"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" /></a>
 
 <br><br>
 
